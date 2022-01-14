@@ -2,6 +2,6 @@ import cpp
 
 
 from Macro m
-where m.getName() = ["htons", "htonl", "htonll", "ntohs", "ntohl", "ntohll"]
+where m.getName() = ["ntohs", "ntohl"]
 select m, "Macro definition"
 
